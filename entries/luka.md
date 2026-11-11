@@ -1,0 +1,1 @@
+neznam ova denes e golem uspex

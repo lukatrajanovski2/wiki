@@ -1,0 +1,11 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block body %}
+    <h1>Креирај нова Вики страница</h1>
+    
+    <form method="POST">
+        {% csrf_token %}
+        {{ valid.as_p }}
+        <button type="submit">Зачувај страница</button>
+    </form>
+{% endblock %}
